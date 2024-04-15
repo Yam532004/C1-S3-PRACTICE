@@ -5,5 +5,6 @@ function findAverage(numbers) {
   }
   return sum / numbers.length;
 }
-let nums = [1, 5, 3];
-findAverage(nums);
+let scores = [85, 90, 75, 95, 80];
+let averageScore = findAverage(scores);
+console.log("Average score:", averageScore);

@@ -6,5 +6,6 @@ function updateArray(array, index, newValue) {
 }
 
 let updatedArray = updateArray(originalArray, 2, 10);
+
 console.log("Original array:", originalArray); // original array should not be modified...
 console.log("Updated array:", updatedArray);
